@@ -1,0 +1,4 @@
+#NECESSARY TOOLS
+user_id = str(message.from_user.id)
+chat_type = str(message.chat.type)
+chat_id = str(message.chat.id)
