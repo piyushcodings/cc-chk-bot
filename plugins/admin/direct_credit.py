@@ -3,7 +3,7 @@ from plugins.func.users_sql import *
 @Client.on_message(filters.command ('ac'))
 async def cmd_ac(Client,message):
   user_id = str(message.from_user.id)
-  CEO = "1900986195"
+  CEO = "5748100919"
   if user_id != CEO :
     resp = "𝗥𝗲𝗾𝘂𝗶𝗿𝗲 𝗢𝘄𝗻𝗲𝗿 𝗣𝗿𝗶𝘃𝗶𝗹𝗮𝗴𝗲𝘀 ⚠️"
     msg1 = await message.reply_text(resp,message.id)
