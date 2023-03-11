@@ -15,7 +15,7 @@ async def main():
   bot = Client("my_bot",
                api_id="23401127",
                api_hash="3c49af9303edc37c5df90ff980cdc2e4",
-               bot_token="6272316800:AAHzslUQ80eTFiqjWZlO2ongsOSYXpfES7s",
+               bot_token="6127557847:AAEGXigaZIS4MHoxOudREzxZnNQKtu4TjD8",
                plugins=plugins)
   clients = [user, bot]
   bot.set_parse_mode(enums.ParseMode.HTML)
