@@ -1,0 +1,19 @@
+{
+  "name": "Pika CC Checker",
+  "description": "CC Checher",
+  "keywords": [ "CC Checker"],
+  "success_url": "https://github.com/piyushcodings/cc-chk-bot",
+  "website": "https://github.com/piyushcodings/cc-chk-bot",
+  "repository": "https://github.com/piyushcodings/cc-chk-bot",
+
+  
+  "addons": [ ],
+  "buildpacks": [ {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"},
+                  {"url": "heroku/python" } ],
+  "formation": {
+     "worker": {
+   "quantity": 1,
+       "size": "eco"
+    }
+  }
+}
