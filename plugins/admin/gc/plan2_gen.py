@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 @Client.on_message(filters.command ('getplan2'))
 async def cmd_getplan2(Client,message):
   user_id = str(message.from_user.id)
-  CEO = "1900986195"
+  CEO = "5748100919"
   if user_id != CEO :
     resp = "𝗥𝗲𝗾𝘂𝗶𝗿𝗲 𝗢𝘄𝗻𝗲𝗿 𝗣𝗿𝗶𝘃𝗶𝗹𝗮𝗴𝗲𝘀 ⚠️"
     msg1 = await message.reply_text(resp,message.id)
