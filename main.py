@@ -345,7 +345,6 @@ async def main():
                     await bot.delete_messages(message.chat.id, delete.id)
                     await message.reply_text(text=e,
                                              reply_to_message_id=message.id)
-  bot.run("6127557847:AAEGXigaZIS4MHoxOudREzxZnNQKtu4TjD8")
   print("Done Bot Active ✅")
 
   await compose(clients)
